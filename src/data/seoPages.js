@@ -3834,20 +3834,237 @@ text: "Bangalore offers a wide variety of food choices, from traditional Karnata
     }
   ]
 },
-  {
-    category: "Recipes",
-    subcategory: "Karnataka",
-    name: "Karnataka Recipes",
-    title: "Karnataka Recipes – Traditional Food & Dishes",
-    description:
-      "Discover authentic Karnataka recipes, traditional dishes and regional cooking styles.",
-    url: "/recipes/karnataka/",
-    intro:
-      "From bisi bele bath to ragi mudde, explore traditional Karnataka recipes and regional cooking styles.",
-    paragraph:
-      "Karnataka recipes reflect the diverse food traditions and regional cooking styles found across the state. Traditional dishes vary between different parts of Karnataka, with ingredients, flavours and preparation methods influenced by local culture and geography. Popular foods include dishes such as bisi bele bath, ragi mudde, neer dosa, akki rotti and many other regional preparations. Some recipes are commonly prepared as everyday meals, while others are associated with festivals, celebrations and special occasions. Exploring Karnataka recipes provides an opportunity to understand how simple ingredients can be combined to create distinctive flavours and satisfying traditional meals. Home cooking plays an important role in preserving these recipes, with many dishes passed from one generation to another. People interested in regional Indian cuisine can discover new cooking ideas by exploring traditional Karnataka food. From rice-based dishes and millet preparations to snacks and sweets, Karnataka's culinary traditions offer a wide range of recipes that can be enjoyed at home and shared with family and friends.",
+{
+  category: "Recipes",
+  subcategory: "Core",
+  name: "Recipes in Bangalore",
+  url: "/recipes/bangalore/",
+
+  h1: "Bangalore Recipes: Popular Local Dishes to Try",
+  title: "Bangalore Recipes | Popular Local Dishes",
+  description:
+    "Explore Bangalore recipes featuring popular local dishes, Karnataka favourites, breakfast classics and traditional flavours to try at home.",
+
+  primaryKeyword: "Bangalore recipes",
+
+  secondaryKeywords: [
+    "recipes in Bangalore",
+    "Bangalore famous food recipes",
+    "traditional Bangalore food",
+    "Karnataka recipes",
+    "popular dishes in Bangalore",
+    "Bangalore breakfast recipes",
+  ],
+
+  topCta: {
+    text: "Explore Bangalore Recipes",
+    url: "#popular-recipes",
   },
 
+  intro: [
+    "Bangalore's food culture brings together traditional Karnataka cooking, South Indian breakfast favourites and dishes enjoyed across the city. From crisp dosas and soft idlis to flavourful rice dishes, there are plenty of recipes to explore.",
+
+    "Many popular dishes associated with Bangalore are also enjoyed throughout Karnataka and other parts of South India. Their flavours, ingredients and preparation methods can vary between households and restaurants.",
+
+    "This guide introduces popular dishes connected with Bangalore's food culture, with ideas for discovering local favourites and preparing them at home.",
+  ],
+
+  table: {
+    title: "Popular Bangalore Recipes at a Glance",
+    headers: [
+      "Dish",
+      "Category",
+      "Key Ingredients or Features",
+    ],
+    rows: [
+      [
+        "Masala Dosa",
+        "Breakfast",
+        "Dosa batter and spiced potato filling",
+      ],
+      [
+        "Idli and Vada",
+        "Breakfast",
+        "Steamed fermented batter and savoury lentil fritters",
+      ],
+      [
+        "Bisi Bele Bath",
+        "Rice dish",
+        "Rice, lentils, vegetables and spices",
+      ],
+      [
+        "Ragi Mudde",
+        "Traditional Karnataka dish",
+        "Finger millet flour and water",
+      ],
+      [
+        "Kesari Bath",
+        "Sweet dish",
+        "Semolina, sugar and ghee",
+      ],
+    ],
+  },
+
+  sections: [
+    {
+      heading: "Popular Recipes to Explore in Bangalore",
+      id: "popular-recipes",
+
+      paragraphs: [
+        "Bangalore offers a wide range of familiar South Indian dishes and Karnataka favourites. These recipes are useful starting points for exploring the city's everyday food culture.",
+      ],
+
+      subsections: [
+        {
+          heading: "Masala Dosa",
+
+          image: {
+            src: "/images/masala-dosa-bangalore.jpeg",
+            alt: "Masala dosa, a popular South Indian breakfast dish enjoyed in Bangalore",
+          },
+
+          paragraphs: [
+            "Masala dosa is a crisp fermented rice-and-lentil crepe filled with a spiced potato mixture. It is commonly served with chutney and sambar and is a popular breakfast choice.",
+          ],
+        },
+
+        {
+          heading: "Idli and Vada",
+
+          image: {
+            src: "/images/idli-vada-bangalore.jpeg",
+            alt: "Idli and vada served as a traditional South Indian breakfast",
+          },
+
+          paragraphs: [
+            "Idli is a soft steamed dish made from fermented rice and lentil batter. Vada offers a crisp contrast and is often served with chutney and sambar. Both are widely enjoyed for breakfast.",
+          ],
+        },
+
+        {
+          heading: "Bisi Bele Bath",
+
+          image: {
+            src: "/images/bisi-bele-bath.jpeg",
+            alt: "Bisi bele bath, a traditional Karnataka rice and lentil dish",
+          },
+
+          paragraphs: [
+            "Bisi bele bath is a well-known Karnataka rice dish prepared with rice, lentils, vegetables and a distinctive spice mixture. It is often served warm as a filling meal.",
+          ],
+        },
+
+        {
+          heading: "Ragi Mudde",
+
+          image: {
+            src: "/images/raggi-mudda.jpeg",
+            alt: "Ragi mudde, a traditional Karnataka dish made with finger millet flour",
+          },
+
+          paragraphs: [
+            "Ragi mudde is a traditional Karnataka preparation made with finger millet flour and water. It is commonly paired with saaru or other savoury accompaniments.",
+          ],
+        },
+
+        {
+          heading: "Kesari Bath",
+
+          paragraphs: [
+            "Kesari bath is a semolina-based sweet prepared with sugar and ghee. It is enjoyed in Karnataka and is sometimes served alongside savoury breakfast dishes.",
+          ],
+        },
+      ],
+    },
+
+    {
+      heading: "Traditional Karnataka Recipes",
+
+      paragraphs: [
+        "Bangalore's food scene includes dishes from across Karnataka. Rice preparations, millet-based foods, lentil dishes and regional sweets all contribute to the state's diverse culinary traditions.",
+
+        "You can explore more traditional dishes through our Karnataka recipes guide, which introduces additional regional favourites and food traditions.",
+      ],
+    },
+
+    {
+      heading: "Common Ingredients in Bangalore Cooking",
+
+      paragraphs: [
+        "Rice, lentils, semolina, millets, seasonal vegetables, coconut, curry leaves and regional spice blends appear in many South Indian and Karnataka recipes. Ingredients and cooking methods differ depending on the dish and household.",
+      ],
+    },
+
+    {
+      heading: "Tips for Preparing Bangalore-Style Dishes at Home",
+
+      paragraphs: [
+        "Use a recipe with clear ingredient quantities and preparation steps. For fermented dishes such as dosa and idli, allow enough time for fermentation.",
+
+        "For rice and lentil dishes, adjust the seasoning and consistency to your preference. Use fresh ingredients and follow suitable food-handling practices when preparing meals at home.",
+      ],
+    },
+
+    {
+      heading: "Frequently Asked Questions",
+
+      faqs: [
+        {
+          question: "What are some popular Bangalore recipes?",
+          answer:
+            "Popular dishes enjoyed in Bangalore include masala dosa, idli, vada, bisi bele bath, ragi mudde and kesari bath.",
+        },
+        {
+          question: "Which traditional Karnataka dishes can I prepare at home?",
+          answer:
+            "You could explore bisi bele bath, ragi mudde and other Karnataka rice, millet and lentil preparations.",
+        },
+        {
+          question: "What ingredients are commonly used in Bangalore recipes?",
+          answer:
+            "Common ingredients include rice, lentils, millets, semolina, vegetables, coconut, curry leaves and spices, depending on the dish.",
+        },
+        {
+          question: "Are Bangalore recipes suitable for breakfast?",
+          answer:
+            "Many dishes enjoyed in Bangalore, including idli, dosa and vada, are popular breakfast options.",
+        },
+      ],
+    },
+
+    {
+      heading: "Discover More Food and Recipes",
+
+      paragraphs: [
+        "Explore more regional recipes and discover local food options through our related Bangalore and Karnataka guides.",
+      ],
+
+      cta: {
+        text: "Explore Karnataka Recipes",
+        url: "/recipes/karnataka/",
+      },
+    },
+  ],
+
+  relatedLinks: [
+    {
+      label: "Karnataka Recipes",
+      url: "/recipes/karnataka/",
+    },
+    {
+      label: "Food in Bangalore",
+      url: "/food/bangalore/",
+    },
+    {
+      label: "Homemade Food in Bangalore",
+      url: "/food/homemade-food/bangalore/",
+    },
+    {
+      label: "Home Chefs in Bangalore",
+      url: "/food/home-chefs/bangalore/",
+    },
+  ],
+},
   {
     category: "Food",
     subcategory: "Regional",

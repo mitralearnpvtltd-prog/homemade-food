@@ -29,6 +29,7 @@ export default function SeoPage({ page }) {
     "/bus/bangalore-to-mangalore/",
     "/bus/bangalore-to-goa/",
     "/places/bangalore/",
+    "/recipes/bangalore/",
   ].includes(page.url);
 
   // Default CTA destinations.
