@@ -197,301 +197,284 @@ export const seoPages = [
     },
   ],
 },
-
-  {
-    category: "Food",
-    subcategory: "Homemade",
-    name: "Homemade Food Bangalore",
-    h1: "Order Fresh Homemade Meals in Bangalore",
-    title: "Homemade Food Delivery in Bangalore | Fresh Homemade Meals",
-    description:
-      "Order fresh homemade food in Bangalore from local home chefs. Discover authentic Karnataka, South Indian and regional meals delivered to your doorstep.",
-    url: "/food/homemade-food/bangalore/",
-
-    primaryKeyword: "homemade food Bangalore",
-
-    secondaryKeywords: [
-      "homemade food delivery Bangalore",
-      "home food delivery Bangalore",
-      "home cooked food Bangalore",
-      "home chefs Bangalore",
-      "fresh homemade food Bangalore",
-      "authentic food Bangalore",
-      "Karnataka food delivery",
-      "South Indian homemade food",
-      "homemade meals Bangalore",
-    ],
-
-    intro: [
-      "Homemade food in Bangalore brings the taste of traditional cooking closer to people who want fresh and comforting meals. Local cooks and home chefs prepare dishes using familiar ingredients, regional recipes and cooking methods passed through families.",
-
-      "From everyday lunches and dinners to traditional Karnataka dishes, homemade food offers a variety of flavours and meal choices. It is a convenient option for students, working professionals, families and travellers looking for an alternative to regular restaurant meals.",
-
-      "With homemade food delivery, you can explore meals prepared by local home chefs and have them delivered to your location in Bangalore.",
-    ],
-
-    paragraph:
-      "Homemade food in Bangalore brings the taste of traditional cooking closer to people who want fresh and comforting meals. Local cooks and home chefs prepare dishes using familiar ingredients, regional recipes and cooking methods passed through families. This makes homemade food a useful choice for students, working professionals, families, travellers and anyone looking for an alternative to regular restaurant meals. From simple everyday lunches and dinners to traditional Karnataka dishes, homemade menus can offer a variety of flavours and meal choices. Ordering homemade food also saves time for people who have busy schedules but still want a freshly prepared meal. Instead of travelling to different restaurants, you can explore meals prepared by local home chefs and have them delivered to your location in Bangalore. Whether you prefer traditional food, regional specialities or simple home-style meals, homemade food delivery makes it easier to enjoy authentic cooking as part of your everyday routine.",
-
-    sections: [
-      {
-        heading: "Explore Homemade Meals and Regional Flavours",
-        paragraphs: [
-          "Homemade food offers the comfort of familiar cooking with the convenience of food delivery. Local cooks and home chefs prepare meals using traditional recipes and everyday ingredients.",
-
-          "You can discover regional dishes, South Indian meals, Karnataka food and simple everyday meals prepared in a home-style kitchen.",
-
-          "For people who want freshly prepared food without spending time cooking, homemade food delivery provides a convenient option.",
-        ],
-      },
-
-      
-      {
-        heading: "What Homemade Food Can You Order?",
-        items: [
-          {
-            heading: "South Indian Food",
-            text: "Explore homemade South Indian favourites such as idli, dosa, vada, pongal, upma and rice dishes. These familiar meals can be suitable for breakfast, lunch or dinner, depending on the available menu.",
-          },
-          {
-            heading: "North Indian Food",
-            text: "Discover home-style North Indian meals such as roti, paratha, dal, sabzi and paneer dishes. These comforting food options can be enjoyed for lunch or dinner, depending on availability.",
-          },
-          {
-            heading: "Biryani",
-            text: "Explore homemade biryani and regional rice-based meals prepared with a variety of spices and ingredients. Vegetarian and non-vegetarian options may be available depending on the food provider.",
-          },
-          {
-            heading: "Healthy Meals",
-            text: "Look for balanced everyday meals, vegetable-based dishes and simple home-style food that suits your preferences. Check the available menu to find suitable options for your daily meals.",
-          },
-        ],
-      },
-      {
-        heading: "Homemade Karnataka Food",
-        paragraphs: [
-          "Karnataka has a wide variety of traditional food, with recipes that differ across regions. Homemade Karnataka food lets you explore familiar regional flavours prepared using traditional cooking methods.",
-        ],
-      },
-
-      {
-        heading: "South Indian Homemade Food in Bangalore",
-        paragraphs: [
-          "South Indian homemade food includes popular everyday meals such as idli, dosa, rice dishes, sambar and other regional preparations. These meals can be a convenient choice for breakfast, lunch or dinner.",
-        ],
-      },
-
-      {
-        heading: "Homemade Food for Office and Everyday Meals",
-        paragraphs: [
-          "Homemade food can be useful for people who need convenient meals during busy days.",
-        ],
-        bullets: [
-          "Office lunch",
-          "Everyday family meals",
-          "Student meals",
-          "Working professional meals",
-          "Simple home-style dinners",
-        ],
-      },
-      
-    {
-      heading: "Best Food for Different Occasions",
-      text: "Homemade food in Bangalore offers convenient choices for everyday meals and special occasions. For breakfast, you can explore South Indian favourites such as idli, dosa, upma and pongal, depending on the available menu. Lunch options may include traditional Karnataka meals, rice dishes, chapati with curry and other home-style preparations. For dinner, families and working professionals can choose comforting meals that suit their preferences. Homemade snacks and traditional sweets can also be suitable for evening gatherings, festivals and small celebrations. Students and office workers may prefer convenient meals for busy weekdays, while families can explore different dishes to share at home. When planning food for an occasion, check the menu, portion sizes, preparation details and delivery availability. Food choices and delivery options vary by provider and location, so review the listing before placing your order.",
-    },
-
-      {
-        heading: "Homemade Food Delivery Across Bangalore",
-        paragraphs: [
-          "Homemade meals can be delivered to different parts of Bangalore depending on the available delivery locations.",
-        ],
-        bullets: [
-          "Central Bangalore",
-          "North Bangalore",
-          "South Bangalore",
-          "East Bangalore",
-          "West Bangalore",
-        ],
-      },
-      
+  
 {
-  heading: "Homemade Food in Bangalore",
-  text: "Bangalore has a diverse food culture shaped by Karnataka's traditional cuisine and the many regional food traditions brought by its residents. Homemade food offers an opportunity to explore familiar meals, regional specialities and everyday dishes prepared by local cooks and home chefs. Depending on the available menu, you may find South Indian breakfast, Karnataka meals, North Indian dishes, biryani, snacks and traditional sweets. Homemade meals can suit students, working professionals and families looking for convenient food options for their daily routines. You can also explore different dishes for lunch, dinner and family meals. Food availability and delivery coverage vary by area and provider. Check the menu and delivery options for your location before placing an order.",
-},
+  category: "Food",
+  subcategory: "Homemade",
+  name: "Homemade Food Bangalore",
 
-      
-{
-  heading: "How Homemade Food Delivery Works",
-  items: [
+  h1: "Order Homemade Food in Bangalore",
+  title: "Homemade Food in Bangalore | Home-Cooked Meals",
+  description:
+    "Explore homemade food in Bangalore, including South Indian meals, Karnataka dishes, biryani and everyday home-style food from local cooks and home chefs.",
+
+  url: "/food/homemade-food/bangalore/",
+
+  primaryKeyword: "homemade food Bangalore",
+
+  secondaryKeywords: [
+    "homemade food delivery Bangalore",
+    "home food delivery Bangalore",
+    "home cooked food Bangalore",
+    "home chefs Bangalore",
+    "fresh homemade food Bangalore",
+    "Karnataka homemade food",
+    "South Indian homemade food",
+    "homemade meals Bangalore",
+  ],
+
+  intro: [
+    "Homemade food in Bangalore offers a way to explore familiar meals, regional recipes and home-style cooking. Local cooks and home chefs may prepare dishes using traditional recipes and everyday ingredients.",
+
+    "From South Indian favourites and Karnataka meals to North Indian dishes and biryani, available menus can offer options for breakfast, lunch and dinner. Homemade meals may suit students, working professionals and families looking for convenient everyday food.",
+
+    "Explore the available food listings to compare dishes, check delivery coverage and find options that suit your preferences and location.",
+  ],
+
+  sections: [
     {
-      heading: "Choose Your Food",
-      text: "Browse the available homemade meals and select the dishes you would like to order.",
+      heading: "Types of Homemade Food Available in Bangalore",
+      paragraphs: [
+        "Homemade food menus can include everyday meals, regional specialities and familiar dishes prepared in a home-style kitchen. The selection depends on the cook or food provider.",
+      ],
+      items: [
+        {
+          heading: "South Indian Food",
+          text: "Explore options such as idli, dosa, vada, pongal, upma, rice dishes and other South Indian favourites, depending on the available menu.",
+        },
+        {
+          heading: "Karnataka Food",
+          text: "Discover traditional Karnataka meals and regional dishes prepared using familiar local ingredients and cooking methods.",
+        },
+        {
+          heading: "North Indian Food",
+          text: "Look for home-style dishes such as roti, paratha, dal, sabzi and paneer preparations when these are offered by the food provider.",
+        },
+        {
+          heading: "Biryani and Rice Dishes",
+          text: "Browse biryani and other rice-based meals. Vegetarian and non-vegetarian choices depend on the provider's menu.",
+        },
+        {
+          heading: "Snacks and Traditional Sweets",
+          text: "Some menus may include homemade snacks and traditional sweets for tea-time, family gatherings or special occasions.",
+        },
+      ],
     },
+
     {
-      heading: "Select Delivery Location",
-      text: "Enter your delivery location to check which homemade food options are available in your area.",
+      heading: "Traditional Karnataka and Regional Meals",
+      paragraphs: [
+        "Karnataka has a diverse food culture, with dishes and cooking traditions that vary across the state. Homemade meal options can help you discover regional flavours alongside everyday meals.",
+        "Availability varies by food provider, so review the dish descriptions and menu details before ordering.",
+      ],
     },
+
     {
-      heading: "Choose Delivery Time",
-      text: "Select from the available delivery times that suit your schedule.",
+      heading: "Homemade Food for Everyday Meals",
+      paragraphs: [
+        "Home-style meals can be a convenient option for people managing busy daily schedules. Depending on the available listings, you may find food suitable for different routines and meal times.",
+      ],
+      bullets: [
+        "Lunch for working professionals",
+        "Everyday meals for families",
+        "Meal options for students",
+        "Home-style dinners",
+        "Breakfast and other daily meals",
+      ],
     },
+
     {
-      heading: "Receive Your Meal",
-      text: "Confirm your order details and receive your meal at the selected delivery location.",
+      heading: "Homemade Food for Different Occasions",
+      paragraphs: [
+        "Homemade food can suit everyday meals as well as small family gatherings. Depending on the menu, you may find breakfast dishes, lunch meals, dinner options, snacks or traditional sweets.",
+        "Before ordering for a gathering, check portion sizes, preparation details, delivery timings and availability with the food provider.",
+      ],
+    },
+
+    {
+      heading: "Homemade Food Delivery Across Bangalore",
+      paragraphs: [
+        "Delivery coverage depends on the food provider and the delivery location. Check availability for your area before placing an order.",
+      ],
+      bullets: [
+        "Central Bangalore",
+        "North Bangalore",
+        "South Bangalore",
+        "East Bangalore",
+        "West Bangalore",
+      ],
+    },
+
+    {
+      heading: "How to Choose Homemade Food",
+      items: [
+        {
+          heading: "Browse Available Meals",
+          text: "Explore the listed dishes and compare the options that match your food preferences.",
+        },
+        {
+          heading: "Check Menu Details",
+          text: "Review ingredients, dish descriptions, portion information and any dietary details supplied by the provider.",
+        },
+        {
+          heading: "Confirm Delivery Availability",
+          text: "Check whether the provider delivers to your location and review the available delivery timings.",
+        },
+        {
+          heading: "Review Your Order",
+          text: "Confirm the selected dishes, delivery details and any conditions shown before completing your order.",
+        },
+      ],
+    },
+
+    {
+      heading: "Why Explore Homemade Food?",
+      items: [
+        {
+          heading: "Home-Style Cooking",
+          text: "Discover meals prepared using home-style recipes and familiar cooking methods.",
+        },
+        {
+          heading: "Regional Variety",
+          text: "Explore Karnataka dishes, South Indian favourites and other regional food options.",
+        },
+        {
+          heading: "Everyday Meal Choices",
+          text: "Compare available dishes for breakfast, lunch, dinner and other meal occasions.",
+        },
+        {
+          heading: "Local Food Providers",
+          text: "Discover meals listed by local cooks and home chefs.",
+        },
+        {
+          heading: "Convenient Discovery",
+          text: "Review food options and delivery information in one place before deciding what to order.",
+        },
+      ],
+    },
+
+    {
+      heading: "Popular Homemade Food Choices",
+      paragraphs: [
+        "The dishes available in Bangalore vary by provider and menu. The following categories can help you explore options for different meal occasions.",
+      ],
+      table: [
+        {
+          food: "South Indian Meals",
+          bestFor: "Breakfast, lunch and dinner",
+        },
+        {
+          food: "Karnataka Food",
+          bestFor: "Traditional regional meals",
+        },
+        {
+          food: "Biryani and Rice Dishes",
+          bestFor: "Lunch and dinner",
+        },
+        {
+          food: "Roti, Dal and Sabzi",
+          bestFor: "Everyday meals",
+        },
+        {
+          food: "Homemade Snacks",
+          bestFor: "Tea-time and light snacks",
+        },
+        {
+          food: "Traditional Sweets",
+          bestFor: "Treats and special occasions",
+        },
+      ],
+    },
+
+    {
+      heading: "Food Options for Bus Journeys",
+      paragraphs: [
+        "If you are planning a bus journey, you can also explore TravelBites' bus-food options where available. Check route coverage, delivery arrangements and ordering conditions on the relevant service page.",
+      ],
     },
   ],
-},
 
-      {
-        heading: "Homemade Food for Bus Travellers",
-        paragraphs: [
-          "Homemade food can also be useful for people travelling by bus. Travellers can explore food options for journeys from Bangalore to destinations such as Mysore, Mangalore, Chennai, Hyderabad and Goa.",
-        ],
-      },
-
-      {
-        heading: "Why Choose Homemade Food?",
-        items: [
-          {
-            heading: "Freshly Prepared",
-            text: "Meals are prepared by local cooks and home chefs.",
-          },
-          {
-            heading: "Regional Flavours",
-            text: "Discover traditional recipes and regional food.",
-          },
-          {
-            heading: "Variety",
-            text: "Choose from different meals, dishes and food styles.",
-          },
-          {
-            heading: "Local Food Creators",
-            text: "Explore food prepared by local home chefs.",
-          },
-          {
-            heading: "Convenient",
-            text: "Order homemade meals without travelling to a restaurant.",
-          },
-        ],
-      },
-      
-{
-  heading: "Why Choose TravelBites",
-  text: "TravelBites makes it easier to discover homemade food and local food options for everyday needs and journeys. You can explore home-style meals, traditional Karnataka dishes, South Indian favourites and other regional food, depending on the available listings. Whether you need lunch at home, a meal for work or food for an eligible bus journey, you can browse the relevant options in one place. Clear menu and delivery information can help you compare choices and decide what suits your needs. Before placing an order, review the food details, delivery location, timing and any conditions provided by the food partner. Menu choices, service coverage and availability may vary by provider and location. By bringing food discovery and travel-related options together, TravelBites helps you explore suitable meals and plan your food requirements more conveniently.",
-},
-
-      {
-        heading: "Popular Food Near Bangalore",
-        
-text: "Bangalore offers a wide variety of food choices, from traditional Karnataka meals to popular South Indian dishes and everyday homemade favourites. Depending on the available menu, you may find idli, dosa, Karnataka meals, biryani, chapati with curry, healthy meals, snacks and traditional sweets. These options can suit different occasions, including breakfast, lunch, dinner and evening snacks. Local food preferences vary across Bangalore, and available dishes may differ by food provider and delivery location. Explore the food options listed on TravelBites to discover meals that suit your preferences and daily routine. Before ordering, check the menu, delivery coverage and availability for your area.",
-        table: [
-          {
-            food: "South Indian Meals",
-            bestFor: "Breakfast, lunch and dinner",
-          },
-          {
-            food: "Karnataka Food",
-            bestFor: "Traditional regional meals",
-          },
-          {
-            food: "Homemade Biryani",
-            bestFor: "Lunch and dinner",
-          },
-          {
-            food: "Healthy Meals",
-            bestFor: "Everyday meals",
-          },
-          {
-            food: "Homemade Snacks",
-            bestFor: "Evening snacks",
-          },
-          {
-            food: "Traditional Sweets",
-            bestFor: "Special occasions",
-          },
-        ],
-      },
-    ],
-
-    internalLinks: [
-      {
-        label: "Food Delivery in Bangalore",
-        url: "/food/bangalore/",
-      },
-      {
-        label: "Home Chefs in Bangalore",
-        url: "/food/home-chefs/bangalore/",
-      },
-      {
-        label: "Bus Food Delivery",
-        url: "/bus-food/",
-      },
-      {
-        label: "Food Delivery on Bus in Bangalore",
-        url: "/bus-food/bangalore/",
-      },
-      {
-        label: "Karnataka Food",
-        url: "/food/karnataka/",
-      },
-      {
-        label: "Karnataka Recipes",
-        url: "/recipes/karnataka/",
-      },
-    ],
-
-    faqs: [
-      {
-        question: "What is homemade food in Bangalore?",
-        answer:
-          "Homemade food in Bangalore is food prepared by local cooks and home chefs using home-style recipes and familiar ingredients.",
-      },
-      {
-        question: "Can I order homemade food online in Bangalore?",
-        answer:
-          "Yes. Homemade food can be ordered for delivery depending on the available location and food options.",
-      },
-      {
-        question: "Who prepares homemade food?",
-        answer:
-          "Homemade meals are prepared by local cooks and home chefs.",
-      },
-      {
-        question: "What types of homemade food can I order?",
-        answer:
-          "Options can include South Indian food, Karnataka food, North Indian food, biryani, healthy meals, snacks and traditional sweets.",
-      },
-      {
-        question: "Can I get homemade food delivered to my office?",
-        answer:
-          "Homemade food can be a convenient option for office meals, depending on delivery availability in your location.",
-      },
-      {
-        question: "Can I order homemade food for bus travel?",
-        answer:
-          "Homemade food can also be useful for bus travellers, with food options available for selected routes and locations.",
-      },
-      {
-        question: "Is homemade food available across Bangalore?",
-        answer:
-          "Delivery availability depends on the location and the available home chefs or food providers.",
-      },
-      {
-        question: "What Karnataka food can I find as homemade food?",
-        answer:
-          "You can explore traditional Karnataka dishes and regional meals prepared by local home chefs.",
-      },
-    ],
-
-    cta: {
-      heading: "Find Homemade Food Near You",
-      text:
-        "Explore fresh homemade meals prepared by local cooks and home chefs in Bangalore.",
-      buttonText: "Explore Homemade Food in Bangalore",
+  internalLinks: [
+    {
+      label: "Food Delivery in Bangalore",
+      url: "/food/bangalore/",
     },
+    {
+      label: "Home Chefs in Bangalore",
+      url: "/food/home-chefs/bangalore/",
+    },
+    {
+      label: "Karnataka Food",
+      url: "/food/karnataka/",
+    },
+    {
+      label: "Karnataka Recipes",
+      url: "/recipes/karnataka/",
+    },
+    {
+      label: "Bus Food Delivery",
+      url: "/bus-food/",
+    },
+    {
+      label: "Food Delivery on Bus in Bangalore",
+      url: "/bus-food/bangalore/",
+    },
+  ],
 
-    images: [],
+  faqs: [
+    {
+      question: "What is homemade food in Bangalore?",
+      answer:
+        "Homemade food in Bangalore refers to home-style meals and dishes prepared by local cooks or home chefs. Available options depend on the food provider.",
+    },
+    {
+      question: "Can I order homemade food online in Bangalore?",
+      answer:
+        "You can explore online homemade-food listings and check the available ordering and delivery options for your location.",
+    },
+    {
+      question: "What types of homemade food can I find?",
+      answer:
+        "Depending on the menu, options may include South Indian meals, Karnataka dishes, North Indian food, biryani, snacks and traditional sweets.",
+    },
+    {
+      question: "Can homemade food be delivered to my office?",
+      answer:
+        "Office delivery depends on the provider's delivery coverage and available ordering arrangements. Check the details for your location.",
+    },
+    {
+      question: "Is homemade food available across Bangalore?",
+      answer:
+        "Availability varies by area and food provider. Check delivery coverage for your location before placing an order.",
+    },
+    {
+      question: "What Karnataka dishes can I explore?",
+      answer:
+        "You can explore the Karnataka dishes listed by available food providers. The selection depends on the menu offered.",
+    },
+    {
+      question: "How do I choose a homemade meal?",
+      answer:
+        "Compare the available dishes, review menu and portion details, and confirm delivery availability and timing before ordering.",
+    },
+    {
+      question: "Can I find food options for bus journeys?",
+      answer:
+        "You can check TravelBites' bus-food service pages for available routes, delivery arrangements and ordering conditions.",
+    },
+  ],
+
+  cta: {
+    heading: "Explore Homemade Food in Bangalore",
+    text:
+      "Browse home-style meals and regional food options from available local food providers.",
+    buttonText: "Explore Home Chefs",
+    url: "/food/home-chefs/bangalore/",
   },
+
+  images: [],
+},
+
   {
   category: "Food",
   subcategory: "Home Chef",
@@ -3834,6 +3817,7 @@ text: "Bangalore offers a wide variety of food choices, from traditional Karnata
     }
   ]
 },
+
 {
   category: "Recipes",
   subcategory: "Core",
@@ -4065,17 +4049,277 @@ text: "Bangalore offers a wide variety of food choices, from traditional Karnata
     },
   ],
 },
-  {
-    category: "Food",
-    subcategory: "Regional",
-    name: "Karnataka Food",
-    title: "Karnataka Food – Traditional Dishes & Local Cuisine",
-    description:
-      "Explore traditional Karnataka food, famous dishes, recipes and authentic regional flavours.",
-    url: "/food/karnataka/",
-    intro:
-      "Explore the famous dishes and local cuisine of Karnataka, from coastal seafood to Mysore classics.",
-    paragraph:
-      "Karnataka food represents a rich combination of traditional recipes, regional ingredients and diverse cooking styles found across the state. The cuisine changes from region to region, with coastal areas known for different flavours and ingredients compared with the food traditions of northern and southern Karnataka. Popular dishes include bisi bele bath, ragi mudde, Mysore-style specialities, akki rotti, neer dosa and many other traditional preparations. Karnataka cuisine includes everyday home-style meals as well as snacks, sweets and dishes prepared for festivals and celebrations. Local food is closely connected with family traditions, seasonal ingredients and regional culture, making it an important part of the state's identity. Exploring Karnataka food allows travellers and food lovers to discover familiar dishes as well as lesser-known regional specialities. Whether you are interested in traditional recipes, local restaurants or homemade meals, Karnataka offers many flavours to explore. From simple home cooking to distinctive regional dishes, the cuisine provides a memorable way to experience the food culture of the state.",
+{
+  category: "Food",
+  subcategory: "Regional",
+  name: "Karnataka Food",
+  url: "/food/karnataka/",
+
+  h1: "Karnataka Food: Traditional Dishes and Local Cuisine",
+  title: "Karnataka Food | Traditional Dishes & Local Cuisine",
+  description:
+    "Discover Karnataka food, traditional dishes, regional specialities and local cuisine, from Mysore favourites to coastal and North Karnataka flavours.",
+
+  primaryKeyword: "Karnataka food",
+
+  secondaryKeywords: [
+    "traditional Karnataka food",
+    "famous food of Karnataka",
+    "Karnataka traditional dishes",
+    "Karnataka local cuisine",
+    "North Karnataka food",
+    "South Karnataka food",
+    "coastal Karnataka food",
+    "Karnataka food specialities",
+  ],
+
+  topCta: {
+    text: "Explore Karnataka Food",
+    url: "#popular-karnataka-food",
   },
+
+  intro: [
+    "Karnataka food reflects the state's diverse regions, ingredients and culinary traditions. From rice-based meals and millet dishes to traditional sweets and coastal specialities, the cuisine offers a wide range of flavours to explore.",
+
+    "Different parts of Karnataka have their own food traditions. Coastal areas are known for seafood and coconut-based preparations, while other regions feature dishes made with millets, rice, lentils and locally available ingredients.",
+
+    "Whether you want to discover famous Karnataka dishes, explore regional food or learn about traditional home-style meals, this guide introduces some of the foods associated with the state's rich culinary culture.",
+  ],
+
+  table: {
+    title: "Popular Karnataka Food at a Glance",
+    headers: [
+      "Dish",
+      "Category",
+      "Key Ingredients or Features",
+    ],
+    rows: [
+      [
+        "Bisi Bele Bath",
+        "Rice dish",
+        "Rice, lentils, vegetables and spices",
+      ],
+      [
+        "Ragi Mudde",
+        "Traditional staple",
+        "Finger millet flour and water",
+      ],
+      [
+        "Mysore Masala Dosa",
+        "Breakfast",
+        "Dosa, spiced potato filling and chutney",
+      ],
+      [
+        "Akki Rotti",
+        "Flatbread",
+        "Rice flour and seasonings",
+      ],
+      [
+        "Neer Dosa",
+        "Coastal Karnataka dish",
+        "Thin rice-based batter",
+      ],
+      [
+        "Mysore Pak",
+        "Sweet",
+        "Gram flour, ghee and sugar",
+      ],
+    ],
+  },
+
+  sections: [
+    {
+      heading: "Popular Karnataka Food to Explore",
+      id: "popular-karnataka-food",
+
+      paragraphs: [
+        "Karnataka has a wide variety of traditional dishes, from everyday meals to regional specialities and festive foods. The following examples offer a starting point for discovering the state's cuisine.",
+      ],
+
+      subsections: [
+        {
+          heading: "Bisi Bele Bath",
+
+          paragraphs: [
+            "Bisi bele bath is a well-known Karnataka dish made with rice, lentils, vegetables and a distinctive spice mixture. It is usually served warm and can be enjoyed as a filling meal.",
+          ],
+        },
+
+        {
+          heading: "Ragi Mudde",
+
+          paragraphs: [
+            "Ragi mudde is made by cooking finger millet flour with water to form a firm, soft preparation. It is traditionally paired with saaru or other savoury accompaniments in parts of Karnataka.",
+          ],
+        },
+
+        {
+          heading: "Mysore Masala Dosa",
+
+          paragraphs: [
+            "Mysore-style masala dosa is a popular breakfast choice associated with Mysore. It combines a crisp dosa with a spiced filling and is commonly served with chutney and sambar.",
+          ],
+        },
+
+        {
+          heading: "Akki Rotti",
+
+          paragraphs: [
+            "Akki rotti is a rice-flour flatbread associated with Karnataka home cooking. Depending on the recipe, the dough may include ingredients such as green chillies, onions, coriander leaves and spices.",
+          ],
+        },
+
+        {
+          heading: "Neer Dosa",
+
+          paragraphs: [
+            "Neer dosa is a thin, soft rice-based dosa associated with coastal Karnataka. It is commonly served with coconut chutney, vegetable curries or other regional accompaniments.",
+          ],
+        },
+
+        {
+          heading: "Mysore Pak",
+
+          paragraphs: [
+            "Mysore Pak is a traditional sweet associated with Mysore. It is prepared using gram flour, ghee and sugar, with variations in texture and richness depending on the preparation.",
+          ],
+        },
+      ],
+    },
+
+    {
+      heading: "Regional Food Traditions of Karnataka",
+
+      paragraphs: [
+        "Karnataka's cuisine varies across its coastal, northern, southern and Malnad regions. Local ingredients, climate and household traditions influence the dishes prepared in different areas.",
+
+        "Coastal Karnataka features rice-based dishes, coconut and seafood in many food traditions. North Karnataka is known for a range of jowar-based foods and savoury accompaniments, while southern Karnataka includes rice dishes, millet preparations and familiar breakfast favourites.",
+
+        "These are broad regional patterns rather than strict rules. Individual dishes and cooking methods can vary between communities and households.",
+      ],
+
+      subsections: [
+        {
+          heading: "Coastal Karnataka Food",
+
+          paragraphs: [
+            "Coastal Karnataka cuisine often features rice, coconut and seafood, alongside a variety of vegetarian dishes. Neer dosa is one example of a regional food associated with the coastal area.",
+          ],
+        },
+
+        {
+          heading: "North Karnataka Food",
+
+          paragraphs: [
+            "North Karnataka food traditions include jowar rotti, pulses, vegetables and spicy accompaniments. The dishes and ingredients vary between districts and local communities.",
+          ],
+        },
+
+        {
+          heading: "South Karnataka Food",
+
+          paragraphs: [
+            "South Karnataka is associated with dishes such as bisi bele bath, ragi mudde and a variety of breakfast preparations. Mysore also has distinctive food specialities, including Mysore Pak and Mysore-style dosa.",
+          ],
+        },
+      ],
+    },
+
+    {
+      heading: "Common Ingredients in Karnataka Cuisine",
+
+      paragraphs: [
+        "Ingredients used in Karnataka cooking vary by region and recipe. Rice, ragi, jowar, lentils, vegetables, coconut, curry leaves and regional spice blends feature in many traditional preparations.",
+
+        "Rice flour is used in dishes such as akki rotti, while finger millet flour is central to ragi mudde. Coconut appears in many coastal preparations, and lentils are important in dishes such as bisi bele bath.",
+      ],
+    },
+
+    {
+      heading: "Traditional Karnataka Meals and Food Culture",
+
+      paragraphs: [
+        "Traditional Karnataka meals may include rice or flatbreads, vegetable preparations, lentil dishes, chutneys, pickles and other accompaniments. The combination depends on the region, household and occasion.",
+
+        "Food is also part of festivals, family gatherings and local celebrations. Traditional sweets and special meals may be prepared for particular occasions, while everyday home cooking often focuses on seasonal ingredients and familiar recipes.",
+      ],
+    },
+
+    {
+      heading: "Tips for Exploring Karnataka Food",
+
+      paragraphs: [
+        "Start with a few well-known dishes, such as bisi bele bath, akki rotti or ragi mudde, to explore different ingredients and cooking styles.",
+
+        "When trying a regional dish, look for recipes that explain the ingredients, quantities and preparation steps. Traditional dishes can have different versions, so compare recipes and choose the variation that suits your preferences.",
+
+        "If you are exploring Karnataka while travelling, consider local eateries and home-style food options to discover regional preparations. Ask about ingredients if you have dietary requirements or food allergies.",
+      ],
+    },
+
+    {
+      heading: "Frequently Asked Questions",
+
+      faqs: [
+        {
+          question: "What food is Karnataka famous for?",
+          answer:
+            "Karnataka is known for dishes such as bisi bele bath, ragi mudde, akki rotti, neer dosa, Mysore masala dosa and Mysore Pak.",
+        },
+        {
+          question: "What are some traditional Karnataka dishes?",
+          answer:
+            "Traditional dishes include bisi bele bath, ragi mudde and akki rotti, along with regional preparations that vary across the state.",
+        },
+        {
+          question: "Does Karnataka food vary by region?",
+          answer:
+            "Yes. Coastal, northern, southern and Malnad regions have different culinary traditions shaped by local ingredients, cooking methods and household practices.",
+        },
+        {
+          question: "What ingredients are common in Karnataka cuisine?",
+          answer:
+            "Common ingredients include rice, ragi, jowar, lentils, vegetables, coconut, curry leaves and regional spices. The ingredients depend on the dish and region.",
+        },
+        {
+          question: "Where can I explore Karnataka food in Bangalore?",
+          answer:
+            "You can explore Karnataka dishes at local restaurants and food outlets in Bangalore, as well as through homemade food options and regional recipes.",
+        },
+      ],
+    },
+
+    {
+      heading: "Discover More Karnataka Food and Recipes",
+
+      paragraphs: [
+        "Explore more regional dishes and discover food options through our related Bangalore and Karnataka guides.",
+      ],
+
+      cta: {
+        text: "Explore Karnataka Recipes",
+        url: "/recipes/karnataka/",
+      },
+    },
+  ],
+
+  relatedLinks: [
+    {
+      label: "Karnataka Recipes",
+      url: "/recipes/karnataka/",
+    },
+    {
+      label: "Food in Bangalore",
+      url: "/food/bangalore/",
+    },
+    {
+      label: "Homemade Food in Bangalore",
+      url: "/food/homemade-food/bangalore/",
+    },
+    {
+      label: "Home Chefs in Bangalore",
+      url: "/food/home-chefs/bangalore/",
+    },
+  ],
+},
 ];

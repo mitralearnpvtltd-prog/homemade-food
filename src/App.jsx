@@ -1,3 +1,4 @@
+
 import { useEffect } from "react";
 import {
   Routes,
@@ -36,8 +37,8 @@ function NotFound() {
 
       <p className="intro">
         That page does not exist.{" "}
-        <Link to="/bus/bangalore/">
-          Go to Bangalore Bus Tickets
+        <Link to="/food/homemade-food/bangalore/">
+          Explore Homemade Food in Bangalore
         </Link>
         .
       </p>
@@ -46,8 +47,8 @@ function NotFound() {
 }
 
 export default function App() {
-  const bangaloreBusPage = seoPages.find(
-    (page) => page.url === "/bus/bangalore/"
+  const homeFoodPage = seoPages.find(
+    (page) => page.url === "/food/homemade-food/bangalore/"
   );
 
   return (
@@ -58,13 +59,13 @@ export default function App() {
 
       <main>
         <Routes>
-          {/* Redirect the homepage to Bangalore Bus Tickets */}
+          {/* Redirect the homepage to Homemade Food in Bangalore */}
           <Route
             path="/"
             element={
-              bangaloreBusPage ? (
+              homeFoodPage ? (
                 <Navigate
-                  to="/bus/bangalore/"
+                  to="/food/homemade-food/bangalore/"
                   replace
                 />
               ) : (

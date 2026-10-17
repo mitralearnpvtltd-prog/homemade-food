@@ -13,10 +13,11 @@ export default function SeoPage({ page }) {
 
   const h1Heading = page.h1 || page.name || page.title;
 
-  // Pages that display a CTA near the top.
   const showTopCta = [
     "/food/bangalore/",
     "/food/home-chefs/bangalore/",
+    "/food/homemade-food/bangalore/",
+    "/food/karnataka/",
     "/bus-food/",
     "/bus-food/bangalore/",
     "/bus-food/ksrtc/",
@@ -32,25 +33,25 @@ export default function SeoPage({ page }) {
     "/recipes/bangalore/",
   ].includes(page.url);
 
-  // Default CTA destinations.
   const defaultCtaUrl = isBusTicketsPage
     ? "/bus/bangalore/booking/"
     : isBusFoodPage
       ? "/bus-food/bangalore/"
-      : "/food/homemade-food/bangalore/";
+      : "/food/home-chefs/bangalore/";
 
-  // Default CTA labels.
   const defaultCtaText = isBusTicketsPage
     ? "Explore Bus Travel Options"
     : page.url === "/bus-food/ksrtc/"
       ? "Explore Bus Food Delivery"
       : isBusFoodPage
         ? "Explore Bus Food Bangalore"
-        : "Order Food";
+        : "Explore Home Chefs";
 
-  // Support page-specific top CTA settings.
+  // Top CTA: prefer topCta, then cta, then defaults.
+  const topCtaHeading = page.topCta?.heading || "";
+  const topCtaDescription = page.topCta?.text || "";
+
   const topCtaText =
-    page.topCta?.text ||
     page.topCta?.buttonText ||
     page.cta?.buttonText ||
     defaultCtaText;
@@ -60,15 +61,11 @@ export default function SeoPage({ page }) {
     page.cta?.url ||
     defaultCtaUrl;
 
-  // Normalize image data from a string or object.
   const normalizeImage = (image, fallbackAlt = "") => {
     if (!image) return null;
 
     if (typeof image === "string") {
-      return {
-        src: image,
-        alt: fallbackAlt,
-      };
+      return { src: image, alt: fallbackAlt };
     }
 
     if (typeof image === "object" && image.src) {
@@ -82,7 +79,6 @@ export default function SeoPage({ page }) {
     return null;
   };
 
-  // Render image galleries.
   const renderImages = (images, className = "seo-images") => {
     if (!Array.isArray(images) || images.length === 0) {
       return null;
@@ -122,12 +118,9 @@ export default function SeoPage({ page }) {
     );
   };
 
-  // Normalize supported table formats.
   const normalizeTable = (table) => {
     if (!table) return null;
 
-    // Object format:
-    // { title, headers: [], rows: [] }
     if (!Array.isArray(table) && Array.isArray(table.rows)) {
       const rows = table.rows.map((row) => {
         if (Array.isArray(row)) return row;
@@ -149,7 +142,6 @@ export default function SeoPage({ page }) {
       return { title: table.title, headers, rows };
     }
 
-    // Array format.
     if (Array.isArray(table) && table.length > 0) {
       const firstRow = table[0];
 
@@ -249,7 +241,6 @@ export default function SeoPage({ page }) {
     return null;
   };
 
-  // Render a table.
   const renderTable = (table) => {
     const normalized = normalizeTable(table);
 
@@ -286,7 +277,6 @@ export default function SeoPage({ page }) {
     );
   };
 
-  // Render a section or subsection image.
   const renderSectionImage = (image, alt, heading) => {
     const normalized = normalizeImage(
       image,
@@ -319,8 +309,10 @@ export default function SeoPage({ page }) {
     );
   };
 
-  // Render a string or array of paragraphs.
-  const renderParagraphs = (content, keyPrefix = "paragraph") => {
+  const renderParagraphs = (
+    content,
+    keyPrefix = "paragraph"
+  ) => {
     if (!content) return null;
 
     const paragraphs = Array.isArray(content)
@@ -332,7 +324,6 @@ export default function SeoPage({ page }) {
     ));
   };
 
-  // Render FAQs.
   const renderFaqs = (faqs) => {
     if (!Array.isArray(faqs) || faqs.length === 0) {
       return null;
@@ -349,7 +340,6 @@ export default function SeoPage({ page }) {
     ));
   };
 
-  // Render reusable CTA data.
   const renderCta = (cta, fallbackUrl = defaultCtaUrl) => {
     if (!cta) return null;
 
@@ -373,10 +363,93 @@ export default function SeoPage({ page }) {
           className="cta-button"
           to={cta.url || fallbackUrl}
         >
-          {cta.buttonText || cta.text || "Learn More"}
+          {cta.buttonText || "Learn More"}
         </Link>
       </div>
     );
+  };
+
+  // Accept either a flat array of links or grouped links.
+  // Supports relatedLinks and internalLinks.
+  const relatedData = page.relatedLinks || page.internalLinks;
+
+  const isLinkObject = (item) =>
+    item &&
+    typeof item === "object" &&
+    (item.url || item.href);
+
+  const renderLink = (link, index) => {
+    const url =
+      typeof link === "string"
+        ? link
+        : link.url || link.href;
+
+    const label =
+      typeof link === "string"
+        ? link
+        : link.text || link.label || link.name || link.title || url;
+
+    if (!url) return null;
+
+    return (
+      <li key={`${url}-${index}`}>
+        <Link to={url}>{label}</Link>
+      </li>
+    );
+  };
+
+  const renderRelatedLinks = (data) => {
+    if (!Array.isArray(data) || data.length === 0) {
+      return null;
+    }
+
+    // Flat format: [{ text: "...", url: "..." }]
+    if (data.every(isLinkObject) || data.every(
+      (item) => typeof item === "string"
+    )) {
+      return (
+        <ul className="related">
+          {data.map(renderLink)}
+        </ul>
+      );
+    }
+
+    // Grouped format:
+    // [{ title: "Food", links: [{ text, url }] }]
+    return data.map((group, index) => {
+      if (!group || typeof group !== "object") {
+        return null;
+      }
+
+      const heading = group.title || group.heading || group.name;
+      const links = group.links || group.items || [];
+
+      // Also allow a group to contain its own URL.
+      if (isLinkObject(group) && links.length === 0) {
+        return (
+          <ul className="related" key={group.url || index}>
+            {renderLink(group, index)}
+          </ul>
+        );
+      }
+
+      if (!Array.isArray(links) || links.length === 0) {
+        return null;
+      }
+
+      return (
+        <div
+          className="related-link-group"
+          key={heading || index}
+        >
+          {heading && <h3>{heading}</h3>}
+
+          <ul className="related">
+            {links.map(renderLink)}
+          </ul>
+        </div>
+      );
+    });
   };
 
   return (
@@ -387,7 +460,6 @@ export default function SeoPage({ page }) {
         url={page.url}
       />
 
-      {/* Breadcrumb navigation */}
       <nav className="breadcrumb" aria-label="Breadcrumb">
         <Link to="/">Home</Link>
         {" / "}
@@ -402,7 +474,7 @@ export default function SeoPage({ page }) {
         <span>{page.name || h1Heading}</span>
       </nav>
 
-      {/* Hero section */}
+      {/* Hero and top CTA */}
       <section className="hero">
         <div className="hero-inner">
           <h1>{h1Heading}</h1>
@@ -413,9 +485,14 @@ export default function SeoPage({ page }) {
             </div>
           )}
 
-          {/* Top CTA */}
           {showTopCta && (
             <div className="top-cta">
+              {topCtaHeading && <h2>{topCtaHeading}</h2>}
+
+              {topCtaDescription && (
+                <p>{topCtaDescription}</p>
+              )}
+
               <Link
                 className="cta-button top-cta-button"
                 to={topCtaUrl}
@@ -429,11 +506,10 @@ export default function SeoPage({ page }) {
         {isBusFoodPage && <Journey />}
       </section>
 
-      {/* Main page content */}
+      {/* Main content */}
       <section className="content">
         {renderParagraphs(page.paragraph, "page-paragraph")}
 
-        {/* PAGE-LEVEL TABLE: appears after the introduction */}
         {page.table && (
           <section className="seo-section seo-table-section">
             {page.table.title && <h2>{page.table.title}</h2>}
@@ -468,8 +544,8 @@ export default function SeoPage({ page }) {
                 `section-${index}-paragraph`
               )}
 
-            {/* Section CTA */}
-            {section.cta && renderCta(section.cta, section.ctaUrl)}
+            {section.cta &&
+              renderCta(section.cta, section.ctaUrl)}
 
             {section.text &&
               renderParagraphs(
@@ -477,7 +553,6 @@ export default function SeoPage({ page }) {
                 `section-${index}-text`
               )}
 
-            {/* Generic section items */}
             {section.items?.map((item, itemIndex) => (
               <div
                 key={item.heading || itemIndex}
@@ -485,8 +560,12 @@ export default function SeoPage({ page }) {
               >
                 {item.heading && <h3>{item.heading}</h3>}
 
-                {item.content && renderParagraphs(item.content)}
-                {item.text && renderParagraphs(item.text)}
+                {item.content &&
+                  renderParagraphs(item.content)}
+
+                {item.text &&
+                  renderParagraphs(item.text)}
+
                 {item.paragraphs &&
                   renderParagraphs(item.paragraphs)}
 
@@ -509,7 +588,6 @@ export default function SeoPage({ page }) {
               </div>
             ))}
 
-            {/* Subsections */}
             {section.subsections?.map(
               (subsection, subsectionIndex) => (
                 <div
@@ -585,7 +663,9 @@ export default function SeoPage({ page }) {
 
             {section.table && (
               <>
-                {section.table.title && <h3>{section.table.title}</h3>}
+                {section.table.title && (
+                  <h3>{section.table.title}</h3>
+                )}
                 {renderTable(section.table)}
               </>
             )}
@@ -611,22 +691,14 @@ export default function SeoPage({ page }) {
         </section>
       )}
 
-      {/* Related internal links */}
-      {page.relatedLinks?.length > 0 && (
-        <section className="content">
+      {/* Related links: supports relatedLinks and internalLinks */}
+      {Array.isArray(relatedData) && relatedData.length > 0 && (
+        <section className="content related-pages">
           <h2>
             {page.internalLinksHeading || "Explore Related Pages"}
           </h2>
 
-          <ul className="related">
-            {page.relatedLinks.map((link, index) => (
-              <li key={link.url || index}>
-                <Link to={link.url}>
-                  {link.text || link.label || link.name || link.url}
-                </Link>
-              </li>
-            ))}
-          </ul>
+          {renderRelatedLinks(relatedData)}
         </section>
       )}
 
@@ -641,7 +713,7 @@ export default function SeoPage({ page }) {
         </section>
       )}
 
-      {/* Page-level CTA */}
+      {/* Bottom CTA */}
       {page.cta && renderCta(page.cta)}
     </>
   );
